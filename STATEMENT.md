@@ -62,6 +62,6 @@ This project is intended to develop an automated reminder system in Python to re
 
 * Calculation of hydration percentage
 
-* **Time-based hydration performance tracking
+* Time-based hydration performance tracking
 
 * Line chart visualization (Matplotlib) Lightweight and simple Python script
