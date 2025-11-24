@@ -58,6 +58,8 @@ while True:
             plt.figure(figsize=(8,5))
             plt.plot(times, percentages, marker='o')
             plt.title("Hydration Percentage Throughout Your Chosen Time Period")
+            plt.show()
     
     
+
 
