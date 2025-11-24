@@ -14,8 +14,13 @@ drank_count = 0
 percentages = []
 times = []
 
-print("\nHydration Reminder Started!")
-print("Type 'Y' whenever you drink water and 'N' you don't.\n")
+now = datetime.datetime.now()
+hour = now.hour
+if start <= hour <= end:
+    print("\nHydration Reminder Started!")
+    print("Type 'Y' whenever you drink water and 'N' you don't.\n")
+else:
+    print("Reminders will begin in between the time period provided")
 
 
 while True:
